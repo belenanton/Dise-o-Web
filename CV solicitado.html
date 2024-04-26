@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currículum Vitae</title>
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+    .imagen-container {
+      text-align: center; /* Centra el contenido horizontalmente */
+      border: 2px solid #333; /* Agrega un borde de 2px sólido de color gris oscuro */
+      padding: 10px; /* Agrega un espacio alrededor de la imagen */
+      background-color: #000; /* Agrega un color de fondo dentro del borde */
+    }
+.container {
+    display: grid;
+    grid-template-areas:
+        'header header'
+        'personal objective'
+        'education work'
+       ;
+    gap: 10px;
+    padding: 10px;
+
+}
+
+.header {
+    grid-area: header;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid black;
+}
+.photo {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 200px; /* Altura de la sección de la foto */
+    border: 1px solid black;
+}
+
+.personal-data, .objective, .work-history, .education, .hobbies {
+    border: 1px solid black;
+    padding: 20px;
+
+}
+
+.personal-data {
+    grid-area: personal;
+    width: 197%; /* Ancho del 100% de su contenedor */
+    height: 170px; /* Altura de la franja */
+}
+
+.objective {
+    grid-area: objective;
+}
+
+.work-history {
+    grid-area: work;
+}
+
+.education {
+    grid-area: education;
+}
+
+.hobbies {
+    grid-area: hobbies;
+}
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="photo">
+                <img src="curri.jpg" alt="Foto" style="width: 250px; height: 185px;">
+            </div>
+        </div>
+        
+
+    <div class="personal-data">
+        <h2>Datos personales:</h2>
+        <h3>Nombre: Marisa Henkler
+        </h3>
+      
+        
+    </div>
+    <div class="work-history">
+        <h2>Antecedentes laborales:</h2>
+        <p>Puesto: Especialista en Recursos Humanos</p>
+        <p>Empresa: Arcor</p>
+        <p>Fecha de empleo: Enero 2022 - Presente</p>
+        <p>Responsabilidades y logros:</p>
+        <ul>
+            <li>Encargada de reclutamiento y selección de personal.</li>
+            <li>Desarrollo e implementación de políticas y procedimientos de recursos humanos.</li>
+            <li>Manejo de relaciones laborales y resolución de conflictos.</li>
+        </ul>
+        <h2>Pasatiempo:</h2>
+        <lu>
+           <li>Asistir a eventos culturales. </li> 
+           <li> Aprender un nuevo idioma o explorar diferentes culturas.</li>
+        </lu>
+        
+    </div>
+    <div class="education">
+        <h2>Objetivos:</h2>
+            <p>Buscar oportunidades de desarrollo profesional en el campo de Recursos Humanos,
+             donde pueda aplicar mis habilidades y conocimientos para contribuir al crecimiento y éxito de la empresa.</p>
+        
+        <h2>Estudios realizados:</h2>
+            <p>Título: Licenciatura en Administración de Empresas</p>
+            <p>Institución: Siglo 21</p>
+            <p>Año de graduación: 2020</p>
+    </div>
+   
+</div>
+</body>
+</html>
+
