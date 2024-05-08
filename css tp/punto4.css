@@ -1,0 +1,17 @@
+/* Estilo para el contenedor principal */
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh; /* Altura igual a la altura de la ventana */
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  
+  /* Estilos para las cajas */
+  .box {
+    background-color: #fff; /* Color de fondo blanco */
+    border: 2px solid #333; /* Borde sólido de 2px de color gris oscuro */
+    padding: 20px; /* Espacio interno de 20px */
+    margin: 10px; /* Margen externo de 10px */
+  }
