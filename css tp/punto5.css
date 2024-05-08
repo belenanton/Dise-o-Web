@@ -1,0 +1,29 @@
+body{
+    background-color: chartreuse;
+    text-align: center;
+}
+.h1{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+
+}
+
+
+.custom-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color de texto */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave */
+    text-decoration: none; /* Quita la subrayado en caso de ser un enlace */
+  }
+
+  
+  .custom-button:hover {
+    background-color: #0056b3; /* Nuevo color de fondo */
+  }
