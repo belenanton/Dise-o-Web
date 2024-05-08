@@ -1,0 +1,19 @@
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+  }
+
+  .gallery img {
+    width: 200px;
+    height: 150;
+    border-radius: 8px;
+    border: 2px solid #ffffff48;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  body{
+
+    background-color: rgb(144, 177, 238);
+    font-family: 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    color: #333333; 
+    line-height: 1.6;
+    text-align: justify; 
+  }
+
+  h1 {
+    font-size: 2em; 
+    font-weight: bold; 
+    color: #9e157025; 
+    text-align: center; 
+    margin-bottom: 20px; 
+    text-decoration: underline;
+  }
+
+  
+  p {
+    margin-bottom: 15px; 
+  }
+
+ 
