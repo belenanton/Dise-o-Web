@@ -2,7 +2,25 @@ div{
 
     width: 50%;
     height: 200px;
-    background-color: blueviolet;
+    background-color: lightcoral;
     margin: auto;
     padding: 30px;
+    border: 10px solid #000;
+}
+.titulo{
+    width: 100%;
+    height: auto;
+    background-color: coral;
+    margin: auto;
+    padding: 30px;
+    border: 10px dotted #000;
+
+} 
+
+body{
+    background-color: cornflowerblue;
+}
+
+h1{
+    text-align: center;
 }
