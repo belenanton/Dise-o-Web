@@ -1,0 +1,29 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+    text-align: center;
+
+}
+/* Estilo base para los enlaces */
+a {
+    text-decoration: none; /* Quita el subrayado predeterminado */
+    color: #007bff; /* Color del texto del enlace */
+    transition: color 0.3s; /* Efecto de transición suave */
+   
+  }
+  
+  /* Estilo cuando el enlace es hover */
+  a:hover {
+    color: blueviolet; /* Cambia el color del texto al pasar el mouse */
+    text-decoration: underline; /* Añade subrayado al pasar el mouse */
+  }
+  
+  .container{
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: black;
+    margin: auto;
+    padding: 30px;
+    border: 10px solid #000;
+  }
