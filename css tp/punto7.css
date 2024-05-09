@@ -1,0 +1,53 @@
+body{
+    color: blue;
+    background-color: aqua;
+
+}
+
+
+h1{
+    text-align: center; 
+}
+
+
+
+
+
+
+/* Estilos para el menú de navegación horizontal */
+
+
+.horizontal-menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: auto;
+    height: auto;
+    background-color: lightcoral;
+    margin: auto;
+    padding: auto;
+    
+
+  }
+  
+  .horizontal-menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .horizontal-menu li {
+    display: inline;
+  }
+  
+  .horizontal-menu li a {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .horizontal-menu li a:hover {
+    background-color: #f0f0f0;
+  }
+  
