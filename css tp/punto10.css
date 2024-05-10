@@ -1,0 +1,47 @@
+/* Estilos para el contenedor principal */
+.container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  /* Estilos para el encabezado */
+  h1 {
+    color: #333;
+  }
+  
+  /* Estilos para el menú */
+  .menu > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .menu > ul > li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  
+  .menu > ul > li > a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  .menu > ul > li > a:hover {
+    color: #007bff;
+  }
+  
+  /* Estilos para el contenido */
+  .contenido {
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contenido h2 {
+    color: #333;
+  }
+  
+  .contenido p {
+    color: #666;
+  }
+  
