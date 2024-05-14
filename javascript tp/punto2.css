@@ -1,0 +1,12 @@
+
+.elemento {
+  padding: 10px;
+  margin: 7px;
+  border: 1px solid #000;
+  cursor:context-menu;
+}
+
+body{
+  background-color: aqua;
+  text-align: center;
+}
