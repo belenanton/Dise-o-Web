@@ -9,7 +9,7 @@ let counter = 0;
 function printclick(){
 
     counter++;
-    console.log("presional el boton")
+    console.log("presionar el boton")
     showclicks.innerHTML = "Cantidad de clicks realizados:" + counter;
 }
 
